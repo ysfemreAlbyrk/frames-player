@@ -15,30 +15,7 @@ A simple application to view and play image frames, created by Yusuf Emre ALBAYR
 
 ### Running the Application
 
-1.  **Prerequisites**:
-    *   Python 3.x installed.
-    *   
-        ```bash
-        pip install opencv-python Pillow
-        ```
-
-2.  **Launching from Source**:
-    *   Navigate to the project directory in your terminal:
-        ```bash
-        cd d:/ProjelerV2/frames-player
-        ```
-    *   Run the Python script:
-        ```bash
-        python frame_player.py
-        ```
-    *   The application will open, prompting you to select a folder containing your image frames.
-
-3.  **Launching with a Specific Directory**:
-    You can also specify the directory containing the frames directly as a command-line argument:
-    ```bash
-    python frame_player.py /path/to/your/frames
-    ```
-    Replace `/path/to/your/frames` with the actual path to the directory containing your `frame_*.webp` files.
+Run `Frame-Player-START.bat`
 
 ### Interacting with the Application
 
@@ -47,7 +24,6 @@ A simple application to view and play image frames, created by Yusuf Emre ALBAYR
 *   **Next/Previous Frame**: Use the ">>" and "<<" buttons to move to the next or previous frame.
 *   **Frame Slider**: Drag the slider to quickly jump to a specific frame.
 *   **Speed Control**: Use the dropdown menu to select the desired playback speed.
-*   **Exit**: Use the "File" menu to close the application.
 
 ## About
 
@@ -56,5 +32,3 @@ A simple application to view and play image frames, created by Yusuf Emre ALBAYR
 A simple application to view and play image frames.
 
 Created by Yusuf Emre ALBAYRAK for project HÜMA in TEKNOFEST 2025 HYZ competition.
-
-[GitHub Repository](https://github.com/ysfemreAlbyrk/frames-player)
